@@ -1,0 +1,139 @@
+.grid-switcher {
+  margin-bottom: 3rem; }
+  .grid-switcher.block .grid-switcher__item {
+    padding: 1.5rem; }
+    @media (max-width: 480px) {
+      .grid-switcher.block .grid-switcher__item {
+        padding: 1rem; } }
+    .grid-switcher.block .grid-switcher__item:not(:last-child) {
+      margin-bottom: 1.5rem; }
+  .grid-switcher.block .grid-switcher__box {
+    display: flex; }
+  @media (min-width: 421px) {
+    .grid-switcher.block .grid-switcher__img {
+      max-width: 160px;
+      min-width: 120px; }
+      .grid-switcher.block .grid-switcher__img img {
+        display: block;
+        max-width: 100%; } }
+  .grid-switcher.block .grid-switcher__content {
+    margin-left: 1.5rem;
+    flex: 1 1 100%; }
+  @media (min-width: 481px) {
+    .grid-switcher.block .grid-switcher__info {
+      display: flex;
+      flex: 1; } }
+  .grid-switcher.block .grid-switcher__wrap {
+    flex: 1; }
+  .grid-switcher.block .grid-switcher__title:hover {
+    font-size: 1rem;
+    color: var(--color-primary); }
+  .grid-switcher.block .grid-switcher__price {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-end; }
+  @media (min-width: 401px) {
+    .grid-switcher.block .grid-switcher__buttons {
+      justify-content: flex-end; } }
+  .grid-switcher.block .grid-switcher__buttons .btn_card-all {
+    width: 100%;
+    max-width: 178px;
+    height: 50px;
+    font-size: 1rem; }
+    @media (max-width: 480px) {
+      .grid-switcher.block .grid-switcher__buttons .btn_card-all {
+        max-width: 110px;
+        height: 40px; } }
+  .grid-switcher.grid .grid-switcher__img {
+    position: relative;
+    padding-bottom: 130%; }
+    .grid-switcher.grid .grid-switcher__img img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%; }
+  .grid-switcher.grid .grid-switcher__info {
+    display: flex;
+    flex-direction: column; }
+  .grid-switcher.grid .grid-switcher__title {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    font-weight: 600;
+    margin-bottom: 0.8rem; }
+  .grid-switcher.grid .grid-switcher__description {
+    display: none; }
+  .grid-switcher.grid .grid-switcher__options {
+    display: none; }
+  .grid-switcher.grid .grid-switcher__price {
+    order: -1;
+    color: var(--color-primary);
+    font-weight: bold; }
+  .grid-switcher.grid .grid-switcher__buttons .btn_card-all {
+    max-width: 178px;
+    width: 100%;
+    height: 50px;
+    font-size: 0.8rem; }
+    @media (max-width: 480px) {
+      .grid-switcher.grid .grid-switcher__buttons .btn_card-all {
+        max-width: 72px;
+        height: 40px;
+        margin-right: 0.4rem;
+        white-space: nowrap; } }
+  .grid-switcher.grid .grid-switcher__content-link {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+  .grid-switcher__img {
+    transition: none;
+    display: block; }
+  .grid-switcher__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .grid-switcher__title {
+    display: inline-block;
+    color: var(--color-text);
+    font-weight: bold;
+    transition: color 0.3s ease; }
+  .grid-switcher__description {
+    margin-top: 0.2rem;
+    font-size: 0.9rem;
+    font-weight: 500; }
+  .grid-switcher__options {
+    margin-top: 0.4rem; }
+  .grid-switcher__option {
+    cursor: pointer;
+    padding: 0.2rem 0.9rem;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-radius: 0.3rem;
+    border: none;
+    background-color: #e9ebee;
+    color: #40404f;
+    transition: background-color 0.3s ease; }
+    .grid-switcher__option:hover {
+      background-color: #d5d9de; }
+    .grid-switcher__option:active {
+      background-color: #c6ccd3; }
+    .grid-switcher__option.active {
+      color: white;
+      background-color: var(--color-primary); }
+  .grid-switcher__buttons {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem; }
+    .grid-switcher__buttons .switcher__buttons-left {
+      width: 100%; }
+    .grid-switcher__buttons .btn {
+      transition: background 0.3s ease; }
+      .grid-switcher__buttons .btn:not(:last-child) {
+        margin-right: 0.8rem; }
+
+/*# sourceMappingURL=grid-switcher.css.map */

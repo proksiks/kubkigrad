@@ -1,0 +1,28 @@
+body {
+  font-family: 'Raleway', 'Helvetica Neue' ,sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-variant-numeric: lining-nums;
+  font-feature-settings: "lnum" 1;
+  color: var(--color-text);
+  fill: var(--color-text);
+  stroke: var(--color-text);
+  stroke-width: 0;
+  background-color: white; }
+  @media (max-width: 1000px) {
+    body {
+      padding-bottom: 62.5px; } }
+  body.hidden {
+    overflow: hidden; }
+  body.disabled-scroll {
+    overflow: hidden; }
+
+svg {
+  width: 1em;
+  height: 1em; }
+
+a {
+  color: var(--color-text);
+  transition: 0.3s ease; }
+
+/*# sourceMappingURL=general-style.css.map */

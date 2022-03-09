@@ -1,0 +1,1 @@
+{"version":3,"sources":["pages/category/index.scss"],"names":[],"mappings":"AAAA;EACE,gBAAgB,EAAA","file":"index.css","sourcesContent":[".category {\n  min-height: 80vh;\n}\n"]}

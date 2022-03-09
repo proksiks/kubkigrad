@@ -1,0 +1,248 @@
+.purchase {
+  min-height: 80vh;
+  margin-bottom: 1.5rem;
+
+  // .purchase__title
+
+  &__title {
+    margin-bottom: 1.5rem;
+  }
+
+  // .purchase__box
+
+  &__box {
+    @media (min-width: 1001px) {
+      display: flex;
+    }
+  }
+
+  // .purchase__box-left
+
+  &__box-left {
+    flex: 1;
+    padding: 1.5rem;
+    background: var(--c-general-background-1);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 24px;
+    border-radius: 6px 0px 0px 6px;
+    @media (max-width: 570px) {
+      padding: 1rem;
+    }
+  }
+
+  // .purchase__box-right
+
+  &__box-right {
+    flex: 1;
+    padding: 1.5rem;
+    background: var(--c-general-background-1);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 24px;
+    border-radius: 0px 6px 6px 0px;
+    @media (max-width: 570px) {
+      padding: 1rem;
+    }
+  }
+
+  // .purchase__subtitle
+
+  &__subtitle {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  // .purchase__choice
+
+  &__choice {
+    display: inline-block;
+    height: auto;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  // .purchase__inputs
+
+  &__inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 1.5rem;
+    @media (max-width: 570px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  // .purchase__input
+
+  &__input {
+  }
+
+  // .purchase__textarea
+
+  &__textarea {
+    color: var(--color-dark-blue);
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 500;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    background: transparent;
+    resize: vertical;
+    min-height: 90px;
+    border: 1px solid var(--color-dark-blue);
+    &::placeholder {
+      color: inherit;
+      font-family: inherit;
+      font-weight: inherit;
+    }
+  }
+
+  // .purchase__buttons
+
+  &__buttons {
+    margin-bottom: 1.5rem;
+  }
+
+  // .purchase__button
+
+  &__button {
+    background: var(--c-general-background-2);
+    border: 2px solid var(--c-general-background-3);
+    border-color: var(--color-primary);
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    display: block;
+    width: auto;
+    height: auto;
+    font-family: inherit;
+    font-size: 1rem;
+    svg {
+      width: auto;
+      height: auto;
+    }
+    &-buy {
+      margin-left: 1.5rem;
+      @media (max-width: 570px) {
+        margin-left: 0;
+        margin-top: 1.5rem;
+      }
+    }
+  }
+
+  // .purchase__price-title
+
+  &__price-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+  }
+
+  // .purchase__box-wrap
+
+  &__box-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  // .purchase__box-top
+
+  &__box-top {
+    @media (min-width: 1001px) {
+      min-height: 380px;
+    }
+  }
+
+  // .purchase__box-row
+
+  &__box-row {
+  }
+
+  // .purchase__box-item
+
+  &__box-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+  }
+
+  // .purchase__box-name
+
+  &__box-name {
+    font-weight: 600;
+  }
+
+  // .purchase__box-price
+
+  &__box-price {
+    font-weight: 600;
+  }
+
+  // .purchase__box-descr
+
+  &__box-descr {
+    span {
+      color: var(--color-dark-blue);
+    }
+  }
+
+  // .purchase__box-amount
+
+  &__box-amount {
+  }
+
+  // .purchase__box-cost
+
+  &__box-cost {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  // .purchase__box-cost-total
+
+  &__box-cost-total {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  // .purchase__box-summ
+
+  &__box-summ {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+
+  // .purchase__box-total
+
+  &__box-total {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--color-primary);
+  }
+
+  // .purchase__box-bot
+
+  &__box-bot {
+    padding-top: 1.5rem;
+    margin-top: 1.5rem;
+    border-top: 1px solid var(--c-general-background-3);
+    @media (min-width: 571px) {
+      display: flex;
+      align-items: center;
+    }
+    .purchase__box-row {
+      flex: 1;
+    }
+    .purchase__box-item {
+      &:not(:last-child) {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  // .purchase__popup
+  &__popup {
+    max-width: 600px;
+  }
+}

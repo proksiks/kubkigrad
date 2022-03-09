@@ -1,0 +1,1 @@
+{"version":3,"sources":["pages/delivery/index.scss"],"names":[],"mappings":"AACE;EADF;IAEI,gBAAgB,EAAA,EAEnB","file":"index.css","sourcesContent":[".delivery {\n  @media (min-width: 768px) {\n    min-height: 80vh;\n  }\n}\n"]}

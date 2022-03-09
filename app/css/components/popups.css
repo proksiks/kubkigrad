@@ -1,0 +1,68 @@
+.popup {
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 12px, rgba(0, 0, 0, 0.1) 0px 1px 4px;
+  border-radius: 1rem;
+  background: var(--c-general-background-1); }
+  .popup__top {
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #e9e9e9; }
+  .popup__bottom {
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; }
+    .popup__bottom .btn {
+      font-weight: 600;
+      font-size: inherit;
+      font-family: inherit;
+      border-radius: 0.5rem;
+      width: auto;
+      padding: 0.75rem 1.5rem; }
+      .popup__bottom .btn_cancel {
+        color: var(--color-text);
+        background: transparent; }
+        .popup__bottom .btn_cancel:hover {
+          background: rgba(79, 84, 95, 0.08); }
+        .popup__bottom .btn_cancel:active {
+          background: rgba(79, 84, 95, 0.16); }
+      .popup__bottom .btn_delete {
+        box-shadow: rgba(247, 83, 83, 0.4) 0px 6px 24px;
+        background-color: #f75353;
+        color: white; }
+        .popup__bottom .btn_delete:hover {
+          background-color: #f52222; }
+        .popup__bottom .btn_delete:active {
+          background-color: #f20b0b; }
+  .popup .sub-title {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.3;
+    font-weight: 600;
+    margin-bottom: 1rem; }
+  .popup p,
+  .popup .text {
+    font-size: 1rem;
+    font-weight: 500; }
+  .popup__wrapper {
+    padding: 1.5rem; }
+  .popup__box {
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    border: 1px solid var(--c-general-background-3); }
+    .popup__box:not(:last-child) {
+      margin-bottom: 1rem; }
+    .popup__box.free .popup__box-descr span {
+      color: var(--color-success); }
+    .popup__box.commercial .popup__box-descr span {
+      color: var(--color-primary); }
+  .popup__box-title {
+    font-weight: 500; }
+  .popup__box-descr {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--color-dark-blue); }
+
+/*# sourceMappingURL=popups.css.map */

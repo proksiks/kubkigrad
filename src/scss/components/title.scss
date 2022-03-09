@@ -1,0 +1,14 @@
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.15;
+    &__block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: var(--widget-spacing);
+    }
+    &_solo {
+        margin-bottom: var(--widget-spacing);
+    }
+}

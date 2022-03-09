@@ -1,0 +1,42 @@
+// @import 'vars'; если используете scss-переменные - подключите сюда vars, но удалите root из _vars.scss
+@import "vars";
+
+@import "./components/general-style";
+@import "./components/wrapper";
+@import "./components/nav";
+@import "./components/logo";
+@import "./components/btns";
+@import "./components/title";
+@import "./components/grid";
+@import "./components/cards";
+@import "./components/pagination";
+@import "./components/catalog-popup";
+@import "./components/fixed-basket";
+@import "./components/sign-up-popup";
+@import "./components/content";
+@import "./components/sort-dropdown";
+@import "./components/grid-switcher";
+@import "./components/switcher-head";
+@import "./components/category";
+@import "./components/accordion";
+@import "./components/custom-checkbox";
+@import "./components/product";
+@import "./components/profile";
+@import "./components/popups";
+@import "./components/order-placeholder";
+
+@import "./components/header";
+@import "./components/footer";
+@import "./components/breadcrumbs";
+
+//main
+@import "./components/catalog";
+@import "./components/delivery";
+
+//pages
+@import "./pages/contact/contact";
+@import "./pages/delivery/index";
+@import "./pages/favorites/index";
+@import "./pages/category/index";
+@import "./pages/cart/index";
+@import "./pages/purchase/index";

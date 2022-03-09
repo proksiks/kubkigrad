@@ -1,0 +1,63 @@
+.card-cat {
+  transition: box-shadow 0.2s ease 0s,  background 0.2s ease 0s;
+  border: 1px solid var(--c-general-background-3);
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0.9rem;
+  position: relative; }
+  @media (max-width: 480px) {
+    .card-cat {
+      padding: 0.5rem; } }
+  .card-cat:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 24px;
+    background: var(--c-general-background-1); }
+  .card-cat__img {
+    position: relative;
+    padding-bottom: 135%; }
+    .card-cat__img img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+      object-fit: cover; }
+  .card-cat__title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 1rem; }
+  .card-cat__link {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    cursor: pointer; }
+  .card-cat_all .card-cat__img {
+    max-height: 280px; }
+  .card-cat_all .card-cat__price {
+    line-height: 1.15;
+    margin: 27px 0 8px;
+    color: var(--color-primary);
+    fill: var(--color-primary);
+    stroke: var(--color-primary);
+    font-weight: bold;
+    font-size: 16px; }
+  .card-cat_all .card-cat__name {
+    margin-bottom: 0.75rem;
+    line-height: 1.4;
+    font-weight: bold;
+    font-size: 14px; }
+  .card-cat_all .card-cat__btn {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 3; }
+
+/*# sourceMappingURL=cards.css.map */

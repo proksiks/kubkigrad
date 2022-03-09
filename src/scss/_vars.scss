@@ -1,0 +1,46 @@
+// COLORS
+:root {
+  color-scheme: light dark;
+  --c-general-background-0: #fff;
+  --c-general-background-1: #fff;
+  --c-general-background-2: #f8f9fb;
+  --c-general-background-3: #ECEEF1;
+  --color-default: #E9EBEE;
+  --color-default-text: #000;
+  --color-primary: #b79014;
+  --color-primary-text: #fff;
+  --color-secondary: #E9EBEE;
+  --color-secondary-text: #000;
+  --color-success: #65CD53;
+  --color-success-text: #fff;
+  --color-danger: #f75353;
+  --color-danger-text: #fff;
+  --color-warning: #ffc000;
+  --color-warning-text: #fff;
+  --color-info: #2D9CDB;
+  --color-info-text: #fff;
+  --color-light: #fff;
+  --color-light-text: #000;
+  --color-dark: #40404F;
+  --color-dark-text: #fff;
+  --color-dark-blue: #8D96A2;
+  --color-dark-blue-text: #fff;
+  --color-invert: #4f545f;
+  --color-invert-text: #fff;
+  --input-border: #C8CDD7;
+  --c-general-background-color: #616161;
+  --text-light: #fff;
+  --text-dark: #40404F;
+  --color-text: #40404F;
+  --color-bg-0: #fff;
+  --color-bg-0-text: #000;
+  --color-bg-1: #fff;
+  --color-bg-1-text: #000;
+  --color-bg-2: #f8f9fb;
+  --color-bg-2-text: #000;
+  --color-bg-3: #ECEEF1;
+  --color-bg-3-text: #000;
+  --widget-spacing: 1.5rem;
+  --app-min-width: 1260px;
+  --app-width: 1260px;
+}

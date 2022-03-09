@@ -1,0 +1,12 @@
+.favorites {
+  min-height: 80vh; }
+  .favorites__filter {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem; }
+    .favorites__filter-btn {
+      margin-bottom: 0.8rem; }
+      .favorites__filter-btn:not(:last-child) {
+        margin-right: 0.8rem; }
+
+/*# sourceMappingURL=index.css.map */

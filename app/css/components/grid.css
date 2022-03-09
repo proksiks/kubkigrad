@@ -1,0 +1,18 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0px, 1fr));
+  gap: 1.5rem;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: var(--widget-spacing); }
+  @media (max-width: 1000px) {
+    .grid {
+      grid-template-columns: repeat(4, 1fr); } }
+  @media (max-width: 800px) {
+    .grid {
+      grid-template-columns: repeat(3, 1fr); } }
+  @media (max-width: 600px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem; } }
+
+/*# sourceMappingURL=grid.css.map */

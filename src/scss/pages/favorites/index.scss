@@ -1,0 +1,28 @@
+
+.favorites {
+  min-height: 80vh;
+  // .favorites__placeholder
+
+  
+
+  // .favorites__wrap
+
+  &__wrap {
+  }
+
+  // .favorites__filter
+
+  &__filter {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+
+    // .favorites__filter-btn
+    &-btn {
+      &:not(:last-child) {
+        margin-right: 0.8rem;
+      }
+      margin-bottom: 0.8rem;
+    }
+  }
+}

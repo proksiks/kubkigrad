@@ -1,0 +1,38 @@
+.content {
+  min-height: 80vh;
+  margin-bottom: 2em; }
+  .content__box {
+    padding: var(--widget-spacing);
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 6.11106px 21.3887px;
+    border-radius: 12px;
+    background: var(--c-general-background-1); }
+    .content__box p {
+      margin: 1em 0; }
+    .content__box h1:first-child,
+    .content__box h2:first-child,
+    .content__box h3:first-child,
+    .content__box h4:first-child,
+    .content__box h5:first-child,
+    .content__box h6:first-child,
+    .content__box p:first-child,
+    .content__box ul:first-child,
+    .content__box li:first-child,
+    .content__box a:first-child,
+    .content__box span:first-child,
+    .content__box div:first-child {
+      margin-top: 0; }
+    .content__box h1:last-child,
+    .content__box h2:last-child,
+    .content__box h3:last-child,
+    .content__box h4:last-child,
+    .content__box h5:last-child,
+    .content__box h6:last-child,
+    .content__box p:last-child,
+    .content__box ul:last-child,
+    .content__box li:last-child,
+    .content__box a:last-child,
+    .content__box span:last-child,
+    .content__box div:last-child {
+      margin-bottom: 0; }
+
+/*# sourceMappingURL=content.css.map */

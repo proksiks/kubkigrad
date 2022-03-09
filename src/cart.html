@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Контакты | Интернет-магазин КубкиГрад.ру в Санкт-Петербурге</title>
+  <meta property="og:site_name" content="КубкиГрад.ру">
+  <meta property="og:title" content="Контакты | Интернет-магазин КубкиГрад.ру в Санкт-Петербурге">
+  <meta name="description" content="Контакты в интернет-магазине КубкиГрад.ру">
+  <meta property="og:description" content="Контакты в интернет-магазине КубкиГрад.ру">
+  @include('partials/head-styles.html')
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="site-container">
+    @include('partials/header.html')
+    <div class="cart">
+      <div class="container">
+        @include('partials/cart-page/breadcrumbs.html')
+        <div class="order__placeholder">
+          <img class="order__placeholder-img" src="img/cart-placeholder.png" alt="">
+          <h3 class="order__placeholder-title">В корзине ничего нет</h3>
+          <a href="/" class="order__placeholder-btn btn btn_green">Начать покупки</a>
+        </div>
+        <div class="cart__content">
+          <div class="cart__left">
+            <div class="cart__head">
+              <div class="cart__head-title title">Корзина</div>
+              <button class="cart__head-clear-btn btn btn_drop-sort">Очистить корзину</button>
+            </div>
+            <div class="cart__box">
+              <div class="cart__box-left">
+                <a class="cart__box-img" href="/">
+                  <img src="img/catalog/all/pic-4.png" alt="">
+                </a>
+                <div class="cart__box-conent">
+                  <a class="cart__box-subtitle" href="/"> KR2 </a>
+                  <div class="cart__box-descr">
+                    <span>Высота:</span>
+                    100 мм
+                  </div>
+                </div>
+              </div>
+              <div class="cart__box-right">
+                <div class="cart__box-info">
+                  <div class="cart__box-price">
+                    411 руб.
+                  </div>
+                  <div class="increment">
+                    <button class="increment__btn increment__minus" type="button" value="-"></button>
+                    <input class="increment__count" type="text" maxlength="12" value="1">
+                    <button class="increment__btn increment__plus" type="button" value="-"></button>
+                  </div>
+                </div>
+              </div>
+              <button class="cart__close">+</button>
+            </div>
+          </div>
+          <div class="cart__right">
+            <div class="cart__wrap">
+              <div class="cart__summ">
+                <div class="cart__summ-title">Итого:</div>
+                <div class="cart__summ-total">411 руб.</div>
+              </div>
+              <div class="cart__summ">
+                <div class="cart__summ-descr">Товары (3):</div>
+                <div class="cart__summ-price">411 руб.</div>
+              </div>
+              <div class="cart__add">
+                <a class="product__button btn btn_green" href="/purchase.html">Оформить заказ</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    @include('partials/footer.html')
+    @include('partials/fixed-elems.html')
+  </div>
+  @include('partials/foot-scripts.html')
+  <script src="js/vendor.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+{"version":3,"sources":["pages/contact/contact.scss"],"names":[],"mappings":"AAAA;EACE,gBAAgB,EAAA","file":"contact.css","sourcesContent":[".contact__title {\n  margin: 0.67em 0;\n}\n"]}

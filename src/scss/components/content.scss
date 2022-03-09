@@ -1,0 +1,48 @@
+.content {
+  min-height: 80vh;
+  margin-bottom: 2em;
+  // .content__box
+  &__box {
+    padding: var(--widget-spacing);
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 6.11106px 21.3887px;
+    border-radius: 12px;
+    background: var(--c-general-background-1);
+
+    p {
+      margin: 1em 0;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    ul,
+    li,
+    a,
+    span,
+    div {
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    ul,
+    li,
+    a,
+    span,
+    div {
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

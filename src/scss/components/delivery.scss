@@ -1,0 +1,22 @@
+.delivery {
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: var(--widget-spacing);
+        box-shadow: rgba(0, 0, 0, 0.04) 0px 6.11106px 21.3887px;
+        border-radius: 12px;
+        background: var(--c-general-background-1);
+        margin-bottom: var(--widget-spacing);
+    }
+    img {
+        margin-bottom: var(--widget-spacing);
+    }
+    &__text {
+        margin: 0.67em 0;
+        font-size: 2em;
+        font-weight: bolder;
+        color: rgb(40,50,78);
+        font-family: 'Georgia';
+    }
+}

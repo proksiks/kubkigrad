@@ -1,0 +1,8 @@
+.nav {
+  display: flex; }
+  .nav__elem:hover {
+    text-decoration: underline; }
+  .nav__elem:not(:last-child) {
+    margin-right: 1.5rem; }
+
+/*# sourceMappingURL=nav.css.map */

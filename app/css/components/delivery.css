@@ -1,0 +1,21 @@
+.delivery__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--widget-spacing);
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 6.11106px 21.3887px;
+  border-radius: 12px;
+  background: var(--c-general-background-1);
+  margin-bottom: var(--widget-spacing); }
+
+.delivery img {
+  margin-bottom: var(--widget-spacing); }
+
+.delivery__text {
+  margin: 0.67em 0;
+  font-size: 2em;
+  font-weight: bolder;
+  color: #28324e;
+  font-family: 'Georgia'; }
+
+/*# sourceMappingURL=delivery.css.map */

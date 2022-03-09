@@ -1,0 +1,155 @@
+.profile {
+  min-height: 80vh; }
+  .profile__title {
+    margin-bottom: 1.5rem; }
+  .profile__blocks {
+    margin-bottom: 1.5rem; }
+    @media (min-width: 769px) {
+      .profile__blocks {
+        display: flex; } }
+  .profile__block_left {
+    flex: 0 0 240px;
+    font-size: 18px;
+    font-weight: 500; }
+  .profile__block_right {
+    width: 100%; }
+    @media (min-width: 769px) {
+      .profile__block_right {
+        margin-left: 1.5rem; } }
+    @media (max-width: 768px) {
+      .profile__block_right {
+        margin-top: 1rem; } }
+  .profile__items {
+    border-radius: 6px;
+    padding: 1rem 0;
+    margin: 0;
+    background: var(--c-general-background-2);
+    padding-left: 0; }
+  .profile__item:not(:last-child) {
+    margin-bottom: 1rem; }
+  .profile__item::before {
+    content: none; }
+  .profile__link {
+    display: flex;
+    align-items: center;
+    padding: 0.9rem 1.5rem;
+    border-left: 4px solid transparent; }
+    .profile__link.active {
+      color: var(--color-primary);
+      fill: var(--color-primary);
+      border-left-color: var(--color-primary);
+      background: var(--c-general-background-3); }
+  .profile__svg {
+    margin-right: 1rem; }
+    .profile__svg svg {
+      display: block;
+      width: 24px;
+      height: 24px; }
+  .profile__box {
+    padding: 1.5rem;
+    border-radius: 0.4rem;
+    background: var(--c-general-background-2);
+    margin-bottom: 1.5rem; }
+    @media (max-width: 480px) {
+      .profile__box {
+        padding: 1rem; } }
+  .profile__sub-title {
+    margin-bottom: 1.5rem;
+    font-size: 18px;
+    font-weight: 600; }
+  .profile__info {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+    @media (max-width: 550px) {
+      .profile__info {
+        grid-template-columns: 1fr; } }
+  .profile__input {
+    position: relative;
+    margin: 0.5rem;
+    position: relative; }
+    .profile__input input {
+      font-family: inherit;
+      font-size: 1rem;
+      padding: 1rem;
+      border: 1px solid var(--input-border);
+      outline: none;
+      background: transparent;
+      border-radius: 0.5rem;
+      width: 100%;
+      color: inherit;
+      border: 1px solid var(--color-dark-blue);
+      inset: -6px 0px 0px; }
+      .profile__input input:disabled {
+        border-color: var(--input-border);
+        color: var(--input-border); }
+    .profile__input label {
+      background: var(--c-general-background-2);
+      padding: 0 7px;
+      font-size: 0.8em;
+      position: absolute;
+      left: 10px;
+      top: -5px;
+      color: var(--color-dark-blue);
+      line-height: 1;
+      display: block;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      min-width: 0px;
+      max-width: calc(100% - 2rem);
+      overflow: hidden; }
+      .profile__input label span {
+        color: var(--color-danger); }
+    .profile__input.phone input {
+      padding-left: 110px; }
+    .profile__input .nice-select {
+      border: none;
+      background: transparent;
+      display: flex;
+      align-items: center;
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 94px;
+      justify-content: flex-end; }
+      .profile__input .nice-select::before {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 1px;
+        height: 20px;
+        background: var(--input-border); }
+      .profile__input .nice-select:after {
+        top: 44%;
+        right: 20px;
+        width: 10px;
+        height: 10px; }
+      .profile__input .nice-select .current {
+        font-weight: 500;
+        padding-right: 1rem;
+        font-size: 1rem; }
+      .profile__input .nice-select .list {
+        max-height: 200px;
+        overflow-y: auto; }
+  .profile__button {
+    text-align: center; }
+    .profile__button .btn {
+      font-family: inherit;
+      font-weight: 600;
+      font-size: 1rem;
+      border-radius: 0.5rem;
+      width: auto;
+      display: inline-block; }
+  .profile__delete {
+    text-align: center; }
+    .profile__delete .btn {
+      font-family: inherit;
+      font-weight: 600;
+      font-size: 1rem;
+      border-radius: 0.5rem;
+      width: auto;
+      display: inline-block; }
+
+/*# sourceMappingURL=profile.css.map */

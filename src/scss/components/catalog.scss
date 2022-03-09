@@ -1,0 +1,14 @@
+.catalog {
+  padding-top: 1.5rem;
+  margin-bottom: var(--widget-spacing);
+  &__btn {
+    &_more {
+      margin-top: 1em;
+      width: 100%;
+      height: 50px;
+      svg {
+        margin-left: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.switcher {
+  min-height: 80vh; }
+  .switcher__head {
+    margin: 1.5rem 0; }
+    @media (min-width: 571px) {
+      .switcher__head {
+        display: flex;
+        justify-content: space-between; } }
+  @media (min-width: 571px) {
+    .switcher__title {
+      padding-right: 20px; } }
+  .switcher__buttons {
+    display: flex;
+    justify-content: space-between; }
+    @media (max-width: 570px) {
+      .switcher__buttons {
+        margin-top: 1.1rem; } }
+    .switcher__buttons-left {
+      display: flex;
+      align-items: center; }
+    .switcher__buttons-right {
+      display: flex;
+      margin-left: 1rem; }
+  .switcher__btn {
+    position: relative; }
+    @media (min-width: 921px) {
+      .switcher__btn_filter {
+        display: none; } }
+    .switcher__btn + .switcher__btn {
+      margin-left: 1rem; }
+  .switcher__btn-icon svg {
+    display: block; }
+  .switcher__btn-icon.active {
+    stroke: var(--color-primary); }
+
+/*# sourceMappingURL=switcher-head.css.map */
